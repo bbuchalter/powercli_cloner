@@ -1,0 +1,19 @@
+SourceVM,TargetDS,TargetHost
+vCenter Server,DS1-T610-PERC6i,192.168.1.244
+ORS,DS2-2950-MD1000,192.168.1.240
+RFC,DS2-2950-MD1000,192.168.1.240
+CoogleV2Dev,DS2-2950-MD1000,192.168.1.240
+CoogleWeb-Production,DS2-2950-MD1000,192.168.1.240
+CoogleWeb-Dev,DS2-2950-MD1000,192.168.1.240
+bradd-desktop,DS2-2950-MD1000,192.168.1.240
+devrealestate.alexcooper.com,DS2-2950-MD1000,192.168.1.240
+jared-desktop,DS2-2950-MD1000,192.168.1.240
+ORS,tier1,192.168.1.239
+RFC,tier1,192.168.1.239
+CoogleV2Dev,tier1,192.168.1.239
+CoogleWeb-Production,tier2,192.168.1.239
+CoogleWeb-Dev,tier2,192.168.1.239
+devrealestate.alexcooper.com,tier2,192.168.1.239
+bradd-desktop,tier2,192.168.1.239
+jared-desktop,tier2,192.168.1.239
+vCenter Server,tier2,192.168.1.239
