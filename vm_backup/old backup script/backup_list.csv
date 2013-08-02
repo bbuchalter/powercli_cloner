@@ -1,0 +1,7 @@
+SourceVM,TargetDS,TargetHost
+ORS,tier1,192.168.1.239
+RFC,tier1,192.168.1.239
+CoogleWeb-Production,tier1,192.168.1.239
+vCenter,tier2,192.168.1.239
+jared-desktop,tier2,192.168.1.239
+bradd-desktop,tier2,192.168.1.239
