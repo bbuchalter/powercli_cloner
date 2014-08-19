@@ -62,7 +62,7 @@ foreach ($customer in $backup_list) {
     Logger("Processing backup for $customer")
 
     $target_host = Get-VMHost -Name $customer.TargetHost
-    $target_host_state = $target_host.stat
+    $target_host_state = $target_host.state
     Logger("Target Host: $target_host ($target_host_state)")
     if($target_host_state -eq "Connected") {
 
@@ -178,7 +178,10 @@ foreach ($customer in $backup_list) {
               } #if clone
             } #if snapshot
           } #if target host
-        } #if target_host connected
+        #if target_host connected
+        } else { 
+          Logger("Host $target_host not in connected state.")
+        }
         Logger("Backup complete for $customer")
         Logger("================")
         Logger("================")
